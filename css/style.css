@@ -1,21 +1,25 @@
-:root{
+:root {
     --blue: #156e98
 }
 
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
 
 }
-img{
+
+img {
     width: 100%;
 }
-.container{
+
+.container {
     width: 65%;
     margin: auto;
 }
 
-p, li, a{
+p,
+li,
+a {
     line-height: 1.4;
     font-size: 17px;
     margin: 0;
@@ -27,17 +31,19 @@ header {
     border-bottom: 7px solid var(--blue);
 }
 
-header img{
+header img {
     width: 15%;
     margin: auto;
     display: block;
     padding: 25px 0;
 }
-.hero img{
+
+.hero img {
     width: 50%;
     margin: auto;
 }
-.hero{
+
+.hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -47,34 +53,36 @@ header img{
 
 
 
-.title{
+.title {
     font-size: 24px;
     color: var(--blue);
     font-weight: 800;
 }
 
-h1{
+h1 {
     color: var(--blue);
     font-size: 30px;
 
 }
 
 
-.first-easy{
+.first-easy {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 40px;
     margin: 40px auto;
 }
 
-.second-easy{
+.second-easy {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 60px;
-    margin: 70px auto;
+    margin: 80px auto;
+    align-items: center;
+
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -82,24 +90,40 @@ h1{
     display: grid;
 
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 50px auto;
 }
 
 
-.banner{
+.banner {
     width: 35%;
     margin: 40px auto;
 }
 
-.second-easy{
-    
+.second-easy  h3{
+    text-align: center;
+    margin-top: 20px;
+
 }
-.first-easy div h3{
+
+.second-div {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 100%;
+
+}
+
+
+.first-easy div h3 {
     text-align: center;
     color: var(--blue);
     text-shadow: var(--blue) 0.4px 0 4px;
 
 }
-.first-easy div p{
+
+.first-easy div p {
     display: none;
     position: absolute;
     top: 50%;
@@ -110,19 +134,47 @@ h1{
     text-align: center;
 }
 
-.first-easy div{
+.first-easy div {
     position: relative;
 
 }
 
-.back{
+.back {
     filter: brightness(50%);
 
 }
 
-.product ul{
+.product ul {
     margin-left: 20px;
 }
-.product ul li{
+
+.product ul li {
     list-style-type: disc;
+}
+
+.easy {
+    margin: 80px auto;
+}
+
+
+video {
+    width: 100%;
+    margin: 70px auto;
+}
+ 
+
+.cta{
+    color: white;
+    background-color: var(--blue);
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
