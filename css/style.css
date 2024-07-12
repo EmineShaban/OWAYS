@@ -1,0 +1,97 @@
+:root{
+    --blue: #156e98
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+
+p, li, a{
+    line-height: 1.4;
+    font-size: 17px;
+    margin: 0;
+}
+
+
+
+header {
+    border-bottom: 7px solid var(--blue);
+}
+
+header img{
+    width: 15%;
+    margin: auto;
+    display: block;
+    padding: 25px 0;
+}
+.hero img{
+    width: 50%;
+    margin: auto;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 50px auto;
+}
+
+
+
+
+.title{
+    font-size: 24px;
+    color: var(--blue);
+    font-weight: 800;
+}
+
+h1{
+    color: var(--blue);
+    font-size: 30px;
+
+}
+
+
+.first-easy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin: 40px auto;
+}
+
+.second-easy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin: 40px auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.product {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.banner{
+    width: 35%;
+    margin: 40px auto;
+}
+
+
+
+.first-easy div:nth-child(1) p{
+    display: none;
+}
