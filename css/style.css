@@ -229,3 +229,41 @@ video {
     margin-top: 10px;
 
   }
+
+
+  .review{
+    margin: 70px auto;
+    position: relative;
+  }
+  .review .div-review{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
+
+  .comm{
+    display: grid;
+    grid-template-columns: 100px 1fr; 
+    column-gap: 20px;
+  }
+
+  .verif{
+    width: 25px;
+  }
+
+  .verif-div{
+    display: flex;
+    align-items: center;
+  }
+
+  .verif-div p{
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+    margin: 7px 0;
+  }
+.comm{
+    margin: 20px 0;
+}
+ 
