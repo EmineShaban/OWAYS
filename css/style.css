@@ -70,8 +70,8 @@ h1{
 .second-easy{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
-    margin: 40px auto;
+    column-gap: 60px;
+    margin: 70px auto;
 }
 
 .center{
@@ -90,8 +90,39 @@ h1{
     margin: 40px auto;
 }
 
+.second-easy{
+    
+}
+.first-easy div h3{
+    text-align: center;
+    color: var(--blue);
+    text-shadow: var(--blue) 0.4px 0 4px;
 
-
-.first-easy div:nth-child(1) p{
+}
+.first-easy div p{
     display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.first-easy div{
+    position: relative;
+
+}
+
+.back{
+    filter: brightness(50%);
+
+}
+
+.product ul{
+    margin-left: 20px;
+}
+.product ul li{
+    list-style-type: disc;
 }
