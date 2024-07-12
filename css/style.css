@@ -204,3 +204,28 @@ video {
 .swiper{
     padding: 40px 0;
 }
+
+
+
+/* FAQ */
+.faq {
+    background-color: #83838329;
+    padding: 25px;
+    color: var(--blue);
+  }
+  
+  .faq h3 {
+    font-size: 25px;
+  }
+  
+  .q {
+    font-weight: 600;
+    border-bottom: var(--blue) 1px solid;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  .a {
+    display: none;
+    margin-top: 10px;
+
+  }
