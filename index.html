@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+ <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
     <!-- metrica!!!!!!! -->
@@ -32,7 +34,7 @@
     <div class="product container">
         <img src="./images/product.jpg" alt="">
         <div>
-            <h2 class="title"> OWAYS Technology Makes You Slim and More healthy
+            <h2 class="title"> OWAYS <br> Technology Makes You Slim and More healthy
             </h2>
             <ul>
                 <li>There are 3 motor machines installed inside the product, which are respectively in the left, center
@@ -67,10 +69,14 @@
                 <a class="cta" href="index.html#order">ORDER NOW</a>
         </div>
     </div>
-    <div class="easy container">
+    <div class="easy">
         <h2 class="title center">
             Easy to Use
         </h2>
+        <div class="container">
+
+     
+        
         <div class="first-easy">
             <div class="easy-text">
                 <h3>Resting on the Bed
@@ -157,15 +163,78 @@
             </div>
         </div>
     </div>
+    </div>
     <div class="banner">
         <img src="./images/8c73f84b-6c15-436e-ad86-012b23726a65.__CR0,0,600,180_PT0_SX600_V1___.jpg" alt="">
     </div>
 
+  <!-- Swiper -->
+   <div class="sw container">
 
 
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./images/665fad37-dc63-4e5e-9bea-fc54860378a4.__CR0,0,362,453_PT0_SX362_V1___.jpg" alt="">
+    <p>When working,you can enjoy it and keep relax
+
+    </p>  
+    </div>
+      <div class="swiper-slide">
+        <img src="./images/36a32c73-5513-4117-9f46-d6e563d477c6.__CR0,0,362,453_PT0_SX362_V1___.jpg" alt="">
+        <p>Vibration function can improve your blood circulation
 
 
+        </p>  
+    </div>
+      <div class="swiper-slide">
+        <img src="./images/cd82b6f4-9524-4998-ba1b-3e4e383cf5cf.__CR0,0,362,453_PT0_SX362_V1___.jpg" alt="">
+        <p>If you want a flat belly, waist and abdomen,OWAYS is the best belt on the market, you deserve it!
 
+
+        </p>  
+     </div>
+      <div class="swiper-slide">
+        <img src="./images/1c82f40f-0495-4996-8bfd-988ff87659c1.__CR0,0,362,453_PT0_SX362_V1___.jpg" alt="">
+        <p>For your loved one for birthday,Valentine's day,Thanksgiveing day or Chirstmas gift
+
+
+        </p>  
+    </div> 
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      "@0.75": {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      "@1.00": {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      }, 
+    },
+  });
+</script>
     <script src="./js/index.js"></script>
     <script type='text/javascript' src='/cdn/plugins/consent-banner/consent-banner.min.js'></script>
     <script src='/cdn/js/fa_events.js'></script>
