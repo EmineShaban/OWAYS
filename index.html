@@ -312,7 +312,135 @@
             </div>
         </div>
     </div>
+    <div class="order container" id="order">
+        <!-- Swiper -->
+        <div class="sw-div">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
 
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/71bjT0xK02L._AC_SX679_.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/71s0t0HeH1L._AC_SL1500_.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/619TAe3gqbL._AC_SX679_.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="./images/71bjT0xK02L._AC_SX679_.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/71s0t0HeH1L._AC_SL1500_.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/619TAe3gqbL._AC_SX679_.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="order-bullets">
+                <div class="order-content">
+                    <img src="https://lesthe.com/cdn/onycostop/covers_assets/w2403-m-1-core-clinic/images/order1.png"
+                        alt="">
+                    <p>FREE SHIPPING</p>
+                </div>
+                <div class="order-content">
+                    <img src="https://lesthe.com/cdn/onycostop/covers_assets/w2403-m-1-core-clinic/images/order2.png"
+                        alt="">
+                    <p>TAKES 1 TO 3 DAYS</p>
+                </div>
+                <div class="order-content">
+                    <img src="https://lesthe.com/cdn/onycostop/covers_assets/w2403-m-1-core-clinic/images/order3.png"
+                        alt="">
+                    <p>PAY WHEN YOU RECEIVE</p>
+                </div>
+            </div>
+        </div>
+        <div class="order-div">
+            <h3>OnycoFix® Foot and Nail Spray</h3>
+            <div class="order-stars">
+                <img src="https://lesthe.com/cdn/onycostop/covers_assets/w2403-m-1-core-clinic/images/stars.png" alt="">
+                <p>1221 reviews </p>
+            </div>
+
+            <div class="order-radio">
+                <div class="radio">
+                    <div class="radio-div">
+                        <input type="radio" id="dewey" name="drone" value="dewey" checked />
+                        <label for="dewey">
+                            <p>1 piece</p>
+                        </label>
+                    </div>
+                    <p> <b>30 euros</b></p>
+                </div>
+
+                <div class="radio yellow">
+                    <div class="radio-div">
+                        <input type="radio" id="dewey" name="drone" value="dewey" />
+                        <label for="dewey">
+                            <p><span>BEST DEAL</span> <br>
+                                2 pieces (25 euros each)</p>
+                        </label>
+                    </div>
+                    <p> <b>50 euros</b></p>
+                </div>
+
+                <div class="radio">
+                    <div class="radio-div">
+                        <input type="radio" id="dewey" name="drone" value="dewey" />
+                        <label for="dewey">
+                            <p>3 pieces (20 euros each)</p>
+                        </label>
+                    </div>
+                    <p> <b>60 euros</b></p>
+                </div>
+            </div>
+            <form action="./additional-links/thank-you.php">
+                <input type="text" placeholder="Full name" required>
+                <input type="text" placeholder="Adress" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Telephone" required>
+                <select name="cars" id="cars">
+                    <option value="volvo">Cash on delivery</option>
+                </select>
+                <button>Order Now</button>
+            </form>
+            <p class="free">Free shipping over 50 euros </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="links">
+            <a href="./additional-links/contacts.html">Contacts</a>
+
+            <a href="/covers-storage/cover/additional-links/EN/privacy-policy.html">Privacy & Policy</a>
+            <a href="/covers-storage/cover/additional-links/EN/terms.html">Terms and Conditions</a>
+        </div>
+
+        <p class="disclaimer">
+            The OWAYS device is designed to assist with slimming and promoting overall wellness. However, individual
+            results may vary. The effectiveness of this device can depend on various factors, including but not limited
+            to individual health conditions, diet, and exercise routines.
+
+
+        </p>
+
+        <p>© 2023 Copyright</p>
+    </footer>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -339,6 +467,25 @@
                     slidesPerView: 3,
                     spaceBetween: 40,
                 },
+            },
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper1 = new Swiper(".mySwiper1", {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
             },
         });
     </script>
