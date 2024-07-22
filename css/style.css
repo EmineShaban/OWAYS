@@ -511,8 +511,10 @@ footer p.disclaimer {
 }
 
 .right {
-    width: 60%;
-    margin: 25px 0;
+    width: 60%; 
+    position: sticky;
+    top: 0;
+    padding-top: 25px;
 }
 
 .left {
@@ -525,7 +527,7 @@ footer p.disclaimer {
 }
 
 form {
-    width: 60%;
+    width: 64%;
 
 }
 
@@ -559,3 +561,50 @@ input:focus {
 /* box-shadow: 0 0 0 1px #1773b0;
 
 border-color : #1773b0; */
+
+
+.names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+form h2{
+    color: #005280;
+}
+
+
+form button{
+    text-transform: uppercase;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #787878;
+}
+
+
+input::placeholder {
+    letter-spacing: 0.8px;
+}
+
+.rights{
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding: 10px 0;
+    color: #787878;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
