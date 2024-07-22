@@ -275,17 +275,19 @@ video {
 /* order */
 
 .order {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 700px 1fr;
-    gap: 50px;
+    gap: 50px; */
   }
   
-  .sw {
+  .sw-last img{
+    display: block;
+
     width: 70%;  
     margin: auto;
     margin-bottom: 25px;
   }
-  
+ 
   /* label{
     display: flex;
     flex-direction: row;
@@ -293,9 +295,9 @@ video {
   } */
   
   .radio {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
   
   .radio-div {
@@ -311,9 +313,12 @@ video {
     font-size: 18px;
     font-weight: 800;
     padding: 7px 0;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px
   }
   
-  button {
+  .order-div a{
     background-color: #ee5208;
     color: white;
     border: none;
@@ -329,8 +334,12 @@ video {
   .sw-div {
     margin: auto 0;
       height: fit-content;
+      align-items: center;
+
   }
-  
+  .sw-2{
+    margin: 25px auto;
+  }
   .swiper{
       height: fit-content;
   }
@@ -341,16 +350,15 @@ video {
     color: #005280;
     font-weight: 800;
     margin-bottom: 0;
+   }
+  .order-div{
+    text-align: center;
+
   }
-  
-  .order-radio {
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-  }
-  
+ 
   .radio {
     padding: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-    font-weight: 500;
+     font-weight: 500;
   }
   
   .yellow {
@@ -375,6 +383,7 @@ video {
   .order-stars {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .order-stars img {
@@ -383,6 +392,11 @@ video {
   
   .order-stars p {
     margin: 0;
+  }
+  .order-div a{
+    display: block;
+    width: 30%;
+    margin: 35px auto;
   }
   
   .order-bullets {
@@ -413,7 +427,10 @@ video {
     padding: 5px;
   }
   
-
+.mySwiper .swiper-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 
   
 /* footer */
@@ -439,4 +456,17 @@ footer div.links {
     letter-spacing: 0;
     line-height: 1;
     font-size: 14px;
+  }
+
+
+  .sw-div{
+    display: grid;
+    grid-template-columns: 800px 400px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .mySwiper, .mySwiper2 {
+    width: 100%;
   }
