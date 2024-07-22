@@ -595,12 +595,30 @@ input::placeholder {
     color: #787878;
     font-style: italic;
 }
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+.cart img{
+    width: 120px;
+    background-blend-mode: multiply;
+}
 
-
-
-
-
-
+.cart{
+    margin-bottom: 5px;
+}
+.cart p b{
+    font-size: 18px;
+}
 
 
 
