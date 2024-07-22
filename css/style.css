@@ -278,35 +278,35 @@ video {
     /* display: grid;
     grid-template-columns: 700px 1fr;
     gap: 50px; */
-  }
-  
-  .sw-last img{
+}
+
+.sw-last img {
     display: block;
 
-    width: 70%;  
+    width: 70%;
     margin: auto;
     margin-bottom: 25px;
-  }
- 
-  /* label{
+}
+
+/* label{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   } */
-  
-  .radio {
+
+.radio {
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
-  }
-  
-  .radio-div {
+}
+
+.radio-div {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .free {
+}
+
+.free {
     text-align: center;
     border: 2px dashed #005280;
     text-transform: uppercase;
@@ -316,9 +316,9 @@ video {
     width: 30%;
     margin: auto;
     margin-bottom: 30px
-  }
-  
-  .order-div a{
+}
+
+.order-div a {
     background-color: #ee5208;
     color: white;
     border: none;
@@ -329,144 +329,206 @@ video {
     margin-bottom: 20px;
     cursor: pointer;
     margin-top: 15px;
-  }
-  
-  .sw-div {
-    margin: auto 0;
-      height: fit-content;
-      align-items: center;
+}
 
-  }
-  .sw-2{
+.sw-div {
+    margin: auto 0;
+    height: fit-content;
+    align-items: center;
+
+}
+
+.sw-2 {
     margin: 25px auto;
-  }
-  .swiper{
-      height: fit-content;
-  }
-  
-  .order-div h3 {
+}
+
+.swiper {
+    height: fit-content;
+}
+
+.order-div h3 {
     font-size: 23px;
     text-align: center;
     color: #005280;
     font-weight: 800;
     margin-bottom: 0;
-   }
-  .order-div{
+}
+
+.order-div {
     text-align: center;
 
-  }
- 
-  .radio {
+}
+
+.radio {
     padding: 10px;
-     font-weight: 500;
-  }
-  
-  .yellow {
+    font-weight: 500;
+}
+
+.yellow {
     background-color: #f5c14f;
-  }
-  
-  label p {
+}
+
+label p {
     margin-left: 5px;
-  }
-  
-  label p span {
+}
+
+label p span {
     color: #f26522;
     font-weight: 700;
-  }
-  
-  input[type="radio"] {
+}
+
+input[type="radio"] {
     accent-color: red;
-  }
-  .order {
+}
+
+.order {
     margin: 50px auto;
-  }
-  .order-stars {
+}
+
+.order-stars {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .order-stars img {
+}
+
+.order-stars img {
     width: 100px;
-  }
-  
-  .order-stars p {
+}
+
+.order-stars p {
     margin: 0;
-  }
-  .order-div a{
+}
+
+.order-div a {
     display: block;
     width: 30%;
-    margin: 35px auto;
-  }
-  
-  .order-bullets {
+    margin: 20px auto;
+}
+
+.price {
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+    text-decoration: underline
+}
+
+.order-bullets {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 25px auto;
-  }
-  .order-content {
+}
+
+.order-content {
     margin: auto;
     text-align: center;
-  }
-  .order-content img {
+}
+
+.order-content img {
     width: 80px;
-  }
-  
-  .order-content p {
+}
+
+.order-content p {
     margin: 0;
     font-size: 14px;
-  }
-  form{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-  }   
-  form input, select{
-    margin: 5px 0;
-    padding: 5px;
-  }
-  
-.mySwiper .swiper-wrapper{
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
 
-  
+form input,
+select {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.mySwiper .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* footer */
 footer div.links {
     text-align: center;
     margin: 15px;
-  }
-  
-  footer a {
+}
+
+footer a {
     margin: 15px;
     text-align: center;
     text-decoration: none;
     color: black;
-  }
-  
-  footer p {
+}
+
+footer p {
     text-align: center;
-  }
-  
-  footer p.disclaimer {
+}
+
+footer p.disclaimer {
     width: 70%;
     margin: 10px auto;
     letter-spacing: 0;
     line-height: 1;
     font-size: 14px;
-  }
+}
 
 
-  .sw-div{
+.sw-div {
     display: grid;
     grid-template-columns: 800px 400px;
     align-items: center;
     justify-content: center;
 
-  }
+}
 
-  .mySwiper, .mySwiper2 {
+.mySwiper,
+.mySwiper2 {
     width: 100%;
-  }
+}
+
+
+
+/* ORDER */
+
+
+.order-header {
+    border-bottom: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 40px; */
+}
+
+.right-div {
+    background-color: rgb(233, 233, 235);
+    border-left: 1px solid #cccccc;
+    padding-left: 20px;
+}
+
+.right {
+    width: 60%;
+    margin: 25px 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20px;
+    margin: 25px 0;
+
+}
+
+form {
+    width: 60%;
+
+}
+
+.order-hr {
+    margin: 0;
+}

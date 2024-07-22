@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="order-header">
+            <h1>OWAYS</h1>
+        </header>
+    </div>
+    <hr class="order-hr">
+    <div class="content">
+        <div class="left-div">
+            <div class="left">
+
+          
+            <form id="order" action="./additional-links/thank-you.php">
+                <input type="text" placeholder="Full name" required>
+                <input type="text" placeholder="Adress" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Telephone" required>
+                <select name="delivery" id="delivery">
+                    <option value="Cash">Cash on delivery</option>
+                </select>
+                <select name="packs" id="packs">
+                    <option value="one">1 Pack - <b>8.99 euros </b></option>
+                    <option value="two">2 Pack (7.99 euros each) - <b>15.98 euros </b></option>
+                    <option value="three">3 Pack (6.99 euros each) - <b>20.97 euros</b></option>
+                </select>
+                <button>Order Now</button>
+
+            </form>
+        </div>
+        </div>
+        <div class="right-div">
+            <div class="right">
+
+            <p>
+                Subtotal
+                BGN 60.00
+                Shipping
+                Enter shipping address
+                Total
+                BGN 60.00
+            </p>
+        </div>
+
+        </div>
+    </div>
 </body>
 </html>
