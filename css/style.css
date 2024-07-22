@@ -532,3 +532,30 @@ form {
 .order-hr {
     margin: 0;
 }
+
+form h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* input:focus{
+    box-shadow: 0 0 0 1px #1773b0;
+
+border-color : #1773b0;
+} */
+
+form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px 7px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 1px #1773b0;
+    border: 1px solid #1773b0;
+    outline: #1773b0;
+}
+
+/* box-shadow: 0 0 0 1px #1773b0;
+
+border-color : #1773b0; */
