@@ -50,7 +50,9 @@ header img {
     margin: 50px auto;
 }
 
-
+.mobile{
+    display: none;
+}
 
 
 .title {
@@ -733,12 +735,35 @@ input::placeholder {
     .free {
         width: 50%;
     }
-
+    .mobile{
+        display: block;
+        color: var(--blue);
+        position: absolute;
+        top: 23%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        margin: auto;
+        font-size: 25px;
+        text-align: center;
+    }
 
 }
 
 
 @media screen and (max-width: 768px) {
+    .mobile{
+        display: block;
+        color: var(--blue);
+        position: absolute;
+        top: 15%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 48%;
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+    }
     .right-div {
         padding-left: 0;
     }
@@ -828,7 +853,23 @@ form {
 }
 
 @media screen and (max-width: 500px) {
+    .mobile{
+        display: block;
+        color: var(--blue);
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 48%;
+        margin: auto;
+        font-size: 16px;
+        text-align: center;
+    }
+    .price{
+        margin-top: 10px;
+        font-size: 22px;
 
+    }
     .names {
         display: flex; 
         flex-direction: column;
