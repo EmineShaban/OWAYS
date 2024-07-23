@@ -511,7 +511,7 @@ footer p.disclaimer {
 }
 
 .right {
-    width: 60%; 
+    width: 60%;
     position: sticky;
     top: 0;
     padding-top: 25px;
@@ -563,19 +563,19 @@ input:focus {
 border-color : #1773b0; */
 
 
-.names{
+.names {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
 }
 
-form h2{
+form h2 {
     color: #005280;
 }
 
 
-form button{
+form button {
     text-transform: uppercase;
     padding: 12px 0;
     font-size: 18px;
@@ -588,35 +588,39 @@ input::placeholder {
     letter-spacing: 0.8px;
 }
 
-.rights{
+.rights {
     margin-top: 20px;
     border-top: 1px solid #cccccc;
     padding: 10px 0;
     color: #787878;
     font-style: italic;
 }
-.cart{
+
+.cart {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.cart div{
+
+.cart div {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 10px;
     margin-bottom: 30px;
 }
-.cart img{
+
+.cart img {
     width: 120px;
     background-blend-mode: multiply;
 }
 
-.cart{
+.cart {
     margin-bottom: 5px;
 }
-.cart p b{
+
+.cart p b {
     font-size: 18px;
 }
 
@@ -626,3 +630,134 @@ input::placeholder {
 
 
 
+@media screen and (max-width: 1500px) {
+    .container {
+        width: 70%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 80%;
+
+    } 
+
+    p,
+    li,
+    a {
+        line-height: 1.4;
+        font-size: 15px;
+        margin: 0;
+    }
+    .review .div-review { 
+        width: 57%;
+    }
+    .banner {
+        width: 45%;
+        margin: 40px auto;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+
+.sw-div {
+    display: grid;
+    grid-template-columns: 500px 300px;
+}
+.second-easy {
+    column-gap: 30px;
+
+}
+.first-easy {
+    column-gap: 20px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 994px) {
+    .container {
+        width: 90%;
+
+    } 
+    .cta { 
+        width: 50%;
+    } 
+
+    .first-easy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    .banner {
+        width: 75%; 
+    }
+    .review .div-review {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: unset;
+        width: 90%;
+        margin: auto;
+    }
+    .free {
+        width: 50%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .sw-div {
+        display: grid;
+        grid-template-columns: 340px 200px;
+    }
+    .mySwiper .swiper-wrapper { 
+        align-items: center;
+    }
+.hero{
+    display: block;
+    margin: auto;
+}
+.hero img {
+    width: 50%;
+        display: block;
+
+    margin: auto;
+}
+
+.sw {
+    width: 60%;
+
+}
+.product{
+    display: block;
+    margin: auto;
+}
+.second-easy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+.sw-2 {
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+}
