@@ -643,7 +643,7 @@ input::placeholder {
     .container {
         width: 80%;
 
-    } 
+    }
 
     p,
     li,
@@ -652,30 +652,39 @@ input::placeholder {
         font-size: 15px;
         margin: 0;
     }
-    .review .div-review { 
+
+    .review .div-review {
         width: 57%;
     }
+
     .banner {
         width: 45%;
         margin: 40px auto;
     }
-    
+    form {
+        width: 80%;
+    }
+    .right {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
 
 
-.sw-div {
-    display: grid;
-    grid-template-columns: 500px 300px;
-}
-.second-easy {
-    column-gap: 30px;
+    .sw-div {
+        display: grid;
+        grid-template-columns: 500px 300px;
+    }
 
-}
-.first-easy {
-    column-gap: 20px;
-}
+    .second-easy {
+        column-gap: 30px;
+
+    }
+
+    .first-easy {
+        column-gap: 20px;
+    }
 
 
 
@@ -684,22 +693,34 @@ input::placeholder {
 
 
 @media screen and (max-width: 994px) {
+    form {
+        width: 90%;
+    }
+    .right {
+        width: 90%;
+    }
+    .cart img {
+        width: 90px;
+    }
     .container {
         width: 90%;
 
-    } 
-    .cta { 
+    }
+
+    .cta {
         width: 50%;
-    } 
+    }
 
     .first-easy {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 40px;
     }
+
     .banner {
-        width: 75%; 
+        width: 75%;
     }
+
     .review .div-review {
         position: relative;
         top: 0;
@@ -708,6 +729,7 @@ input::placeholder {
         width: 90%;
         margin: auto;
     }
+
     .free {
         width: 50%;
     }
@@ -717,47 +739,197 @@ input::placeholder {
 
 
 @media screen and (max-width: 768px) {
+    .right-div {
+        padding-left: 0;
+    }
+    .content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.right {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.order-header h1{
+    margin-left: 20px;
+}
+form {
+    width: 90%;
+    margin: auto;
+}
     .sw-div {
         display: grid;
         grid-template-columns: 340px 200px;
     }
-    .mySwiper .swiper-wrapper { 
+
+    .mySwiper .swiper-wrapper {
         align-items: center;
     }
-.hero{
-    display: block;
-    margin: auto;
-}
-.hero img {
-    width: 50%;
+
+    .hero {
+        display: block;
+        margin: auto;
+    }
+
+    .hero img {
+        width: 50%;
         display: block;
 
-    margin: auto;
+        margin: auto;
+    }
+
+    .sw {
+        width: 60%;
+
+    }
+
+    .product {
+        display: block;
+        margin: auto;
+    }
+
+    .second-easy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+
+    .sw-2 {
+        margin: 10px auto;
+    }
+
+    .free {
+        width: 75%;
+    }
+
+    .order-div a {
+        width: 45%;
+    }
+
+    p,
+    li,
+    a {
+        line-height: 1.4;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    header img {
+        width: 30%;
+        margin: auto;
+        display: block;
+        padding: 25px 0;
+    }
+
+
+
 }
 
+@media screen and (max-width: 500px) {
+
+    .names {
+        display: flex; 
+        flex-direction: column;
+    }
+    .sw-last img {
+        display: block;
+        width: 90%;
+
+    }
+
+    .sw-div {
+        display: block;
+
+    }
+
+    .mySwiper .swiper-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .order-bullets {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .sw {
+        width: 75%;
+    }
+
+    .banner {
+        width: 90%;
+    }
+
+    header img {
+        width: 32%;
+        margin: auto;
+        display: block;
+        padding: 25px 0;
+    }
+
+
+    .cta {
+        color: white;
+        width: 41%;
+
+        background-color: var(--blue);
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 414px) {
+ 
+    .cta {
+        color: white;
+        width: 41%; 
+        background-color: var(--blue);
+        font-size: 15px;
+    }
+    .first-easy { 
+        column-gap: 20px;
+    }
 .sw {
-    width: 60%;
+    margin: 5px auto; 
+}
+.first-easy div h3 {
+font-size: 14px;
+}
+.first-easy div p {
+margin-top: 5px;
 
 }
-.product{
-    display: block;
-    margin: auto;
+.second-easy h3 {
+    font-size: 15px;
+
 }
-.second-easy {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 30px;
+p, li, a {
+    line-height: 1.2;
+    font-size: 12px;
+    margin: 0;
 }
-.sw-2 {
-    margin: 10px auto;
+.free { 
+    font-size: 15px;
 }
 
+.order-content img {
+    width: 60px;
+}
 
-
-
-
-
-
+.easy { 
+    padding: 15px 0;
+    margin: 50px auto;
+}
+.second-easy { 
+    margin: 50px auto;
+}
 
 
 }
